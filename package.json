@@ -1,7 +1,7 @@
 {
   "name": "qcobjects-handler-mockup",
   "description": "QCObjects Handler for Mockup Backend Services",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "index.js",
   "scripts": {
     "sync": "git add . && git commit -am ",
