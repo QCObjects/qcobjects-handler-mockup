@@ -9,7 +9,7 @@ and get a fake or dummy response in JSON format
 1. Install this dependency in your project using npm
 
 ```shell
-npm i --save qcobjects-handler-openapi
+npm i --save qcobjects-handler-mockup
 ```
 
 2. In your config.json file, create the following paths
