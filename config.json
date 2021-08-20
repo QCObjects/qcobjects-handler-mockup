@@ -1,0 +1,21 @@
+{
+  "backend": {
+    "routes": [
+      {
+        "name": "Mockup Url",
+        "description": "Get a fake JSON response from a mockup url",
+        "path": "^/rest/mockup$",
+        "microservice": "com.qcobjects.backend.microservice.mockup",
+        "supported_methods": ["POST"],
+        "responseHeaders": {
+          "Content-Type": "application/json"
+        },
+        "response": {
+          "access_token": "a1b2c3d4e5",
+          "expires_in": 3600,
+          "token_type": "Bearer"
+        }
+      }
+    ]
+  }
+}
