@@ -34,3 +34,4 @@ const path = require("path");
 const absolutePath = path.resolve( __dirname, "./" );
 
 Import (absolutePath + "/api/com.qcobjects.backend.microservice.mockup");
+Package ("qcobjects-handler-mockup", Package ("com.qcobjects.backend.microservice.mockup"));
